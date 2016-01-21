@@ -7,4 +7,4 @@ The other plugin is called Firefly(Available here for free: http://www.fireflyex
 You will also find a pdf file with schematics of the installation and details about the machines. The machines themselves where designed and built by me with help from Javier Toro (http://toroblum.com/)
 
 Disclaimer:
-There is probably a much efficient and easier way to build this system, including the software, electronics, mechanics involved. But at the end of the day everything worked the way it was supposed to be and all was successful. If you have any questions you can contact me at: esteban@esrs.co
+There is probably a much efficient and easier way to build this system, including the software, electronics, mechanics involved. But at the end of the day everything worked the way it was supposed to be and all was successful. If you have any questions/comments you can contact me at: esteban@esrs.co
