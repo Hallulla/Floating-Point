@@ -6,6 +6,8 @@ The software that controls the mirrors is divided into a Grasshopper called "Flo
 The Grasshopper simulation is where all the geometry and raytracing takes place. You will need two plugins to properly run the model. One called Heliotrope(Avaliable here for free: http://www.food4rhino.com/project/heliotropegh?ufh) used for sun vector calculation.
 The other plugin is called Firefly(Available here for free: http://www.fireflyexperiments.com/) used here for sending serial data from GH to Arduino.
 
+The Arduino file makes use of the AccelStepper library(http://www.airspayce.com/mikem/arduino/AccelStepper/) and it basically takes the serial string from the GH definition and turns it into instructions for the stepper motors.
+
 You will also find a pdf file with schematics of the installation and details about the machines. The machines themselves where designed and built by me with help from Javier Toro (http://toroblum.com/)
 
 Disclaimer:
