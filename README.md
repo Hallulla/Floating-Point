@@ -1,5 +1,7 @@
 # Floating-Point
 Project files for the Floating Point public installation.
+You can find more info about this project in my website: http://esrs.co/
+Make sure to watch the project in action here: https://youtu.be/SHnhzbCWRn8
 The software that controls the mirrors is divided into a Grasshopper called "Floating_Point_OS.gh" and an Arduino file called "Serial_CSV_to_Stepper.ino.ino"
 The Grasshopper simulation is where all the geometry and raytracing takes place. You will need two plugins to properly run the model. One called Heliotrope(Avaliable here for free: http://www.food4rhino.com/project/heliotropegh?ufh) used for sun vector calculation.
 The other plugin is called Firefly(Available here for free: http://www.fireflyexperiments.com/) used here for sending serial data from GH to Arduino.
