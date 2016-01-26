@@ -1,13 +1,17 @@
 # Floating-Point
 Project files for the Floating Point public installation.
 
+The installation consists of three computer-controlled circular mirrors placed on a rooftop in the center of Santiago(Chile). They reflect sunlight onto a large nearby facade. The software that controlls the mirrors was developed using Grasshopper.
+
 You can find more info about this project in my website: http://esrs.co/
 
 Make sure to watch the project in action here: https://youtu.be/SHnhzbCWRn8
 
 More photos of the installation here: https://www.flickr.com/photos/139682630@N04/albums/72157661634951554
 
-The software that controls the mirrors is divided into a Grasshopper called "Floating_Point_OS.gh" and an Arduino file called "Serial_CSV_to_Stepper.ino.ino"
+The software is divided into a Rhino file called "Location.3dm", a Grasshopper file called "Floating_Point_OS.gh" and an Arduino file called "Serial_CSV_to_Stepper.ino.ino"
+
+The Rhino file contains all the relevant geometry of the location and it basically helps you make sense of the GH simulation.
 
 The Grasshopper simulation is where all the geometry and raytracing takes place. You will need two plugins to properly run the model. One called Heliotrope(Avaliable here for free: http://www.food4rhino.com/project/heliotropegh?ufh) used for sun vector calculation.
 The other plugin is called Firefly(Available here for free: http://www.fireflyexperiments.com/) used here for sending serial data from GH to Arduino.
