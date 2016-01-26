@@ -3,6 +3,7 @@ Project files for the Floating Point public installation.
 
 You can find more info about this project in my website: http://esrs.co/
 Make sure to watch the project in action here: https://youtu.be/SHnhzbCWRn8
+More photos of the installation here: https://www.flickr.com/photos/139682630@N04/albums/72157661634951554
 
 The software that controls the mirrors is divided into a Grasshopper called "Floating_Point_OS.gh" and an Arduino file called "Serial_CSV_to_Stepper.ino.ino"
 
