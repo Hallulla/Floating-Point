@@ -1,7 +1,8 @@
 # Floating-Point
-Project files for the Floating Point public installation.
+I have uploaded all project files here in case someone is interested in the technical back-end of the project.
+And also because I like to keep at least some level of project documentation.
 
-The installation consists of three computer-controlled circular mirrors placed on a rooftop in the center of Santiago(Chile). They reflect sunlight onto a large nearby facade. The software that controlls the mirrors was developed using Grasshopper.
+The installation consists of three computer-controlled circular mirrors placed on a rooftop in the center of Santiago(Chile). They reflect sunlight onto a large nearby facade drawing an elliptical pattern thruought the day, until the sun goes out. The software that controlls the mirrors was developed using Grasshopper.
 
 You can find more info about this project in my website: http://esrs.co/
 
