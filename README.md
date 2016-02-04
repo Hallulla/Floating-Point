@@ -14,7 +14,7 @@ The software is divided into a Rhino file called "Location.3dm"(in mm), a Grassh
 
 The Rhino file contains all the relevant geometry of the location and it basically helps you make sense of the GH simulation.
 
-The Grasshopper simulation is where all the geometry and raytracing takes place. You will need two plugins to properly run the model. One called Heliotrope(Avaliable here for free: http://www.food4rhino.com/project/heliotropegh?ufh) used for sun vector calculation.
+The Grasshopper simulation is where all the geometry and raytracing takes place. It allows precise controll and calibration of the mirrors. It takes cartesian coordinates, from the positions of the light dots on facade, and polar coordinates,from the position of the sun in space, and outputs a serial string with proper motor coordinate.s You will need two plugins to properly run the model. One called Heliotrope(Avaliable here for free: http://www.food4rhino.com/project/heliotropegh?ufh) used for sun vector calculation.
 The other plugin is called Firefly(Available here for free: http://www.fireflyexperiments.com/) used here for sending serial data from GH to Arduino.
 
 The Arduino file makes use of the AccelStepper library(http://www.airspayce.com/mikem/arduino/AccelStepper/) and it basically takes the serial string from the GH definition and turns it into instructions for the stepper motors.
