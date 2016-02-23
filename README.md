@@ -21,5 +21,4 @@ The Arduino file makes use of the AccelStepper library(http://www.airspayce.com/
 
 You will also find a pdf file with schematics of the installation and details about the machines. The machines themselves where designed and built by me with help from Javier Toro (http://toroblum.com/)
 
-Disclaimer:
-There is probably a much more efficient and easier way to build this system, including the software, electronics and mechanics involved. But at the end of the day everything worked the way it was supposed to and all was successful, although it did take a lot of work. If you have any questions/comments you can contact me at: esteban@esrs.co
+DISCLAIMER: There is probably a much more efficient and easier way to build this system, including the software, electronics and mechanics involved. But at the end of the day everything worked the way it was supposed to and all was successful, although it did take a lot of work. If you have any questions/comments you can contact me at: esteban@esrs.co
